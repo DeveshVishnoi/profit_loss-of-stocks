@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    border: 1px solid black;
+    padding:15px ;
+    color: white;
+    background-color: black;
+}
+
+.con{
+    background-color:rgb(203, 233, 243);
+    width:100%;
+    height:600px;
+    text-align: center;
+}
+
+.first{
+    padding-top: 20px;
+    text-align: center;
+    color: rgba(255, 145, 0, 0.991);
+}
+label{
+    font-size:20px;
+    font-weight: bold;
+}
+input{
+    width: 200px;
+    height: 30px;
+    /* border: 1px solid yellow; */
+    font-size:15px;
+    font-weight: bold;
+    border-radius:5px;
+    border:none;
+    margin: 5px;
+    padding: 5px;
+}
+
+button{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size:15px;
+    /* font-weight: bold; */
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:blue;
+    color: white;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    min-height: 20vh;
+    text-align: center;
+    border: 1px solid blACK;
+    background-color: lightgreen;
+    border: none;
+}
+
+.list{
+    padding-top:20px ;
+    display: flex;
+    gap: 46px;
+    /* text-decoration: none; */
+    list-style: none;
+    font-weight: bold;
+    
+}
+.list li a{
+    text-decoration:none;
+    color:black;
+}
+.list li:hover {
+    font-weight: bold;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.box,.error{
+    padding: 4px;
+    border: 2px solid blue;
+    height:50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+}
+.profit{
+    border: 2px solid green;
+    height:50px;
+    padding: 4px;
+    text-align: center;
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+}
+.loss{
+    padding: 4px;
+    border: 2px solid red;
+    height:50px;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+.big{
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
